@@ -1,0 +1,137 @@
+{
+	"title": "booklist",
+	"books": [
+		{
+			"bookId": "sf001",
+			"image": "/images/books/midnight_library.jpg",
+			"name": "The Midnight Library",
+			"category": "Sci-Fi & Fantasy",
+			"price": 15.99,
+			"originalPrice": 24.99,
+			"sold": 10,
+			"stock": 20,
+			"rating": 4.5
+		},
+		{
+			"bookId": "bi001",
+			"image": "/images/books/promised_land.jpg",
+			"name": "A Promised Land",
+			"category": "Biographies",
+			"price": 29.99,
+			"originalPrice": 39.99,
+			"sold": 20,
+			"stock": 12,
+			"rating": 4.8
+		},
+		{
+			"bookId": "bi002",
+			"image": "/images/books/born_a_crime.jpg",
+			"name": "Born a Crime",
+			"category": "Biographies",
+			"price": 12.99,
+			"originalPrice": 19.99,
+			"sold": 15,
+			"stock": 27,
+			"rating": 4.7
+		},
+		{
+			"bookId": "sf002",
+			"image": "/images/books/silent_patient.jpg",
+			"name": "The Silent Patient",
+			"category": "Sci-Fi & Fantasy",
+			"price": 13.99,
+			"originalPrice": 19.99,
+			"sold": 12,
+			"stock": 87,
+			"rating": 4.6
+		},
+		{
+			"bookId": "bu001",
+			"image": "/images/books/atomic_habits.jpg",
+			"name": "Atomic Habits",
+			"category": "Business",
+			"price": 18.99,
+			"originalPrice": 26.99,
+			"sold": 18,
+			"stock": 44,
+			"rating": 4.9
+		},
+		{
+			"bookId": "ro001",
+			"image": "/images/books/crawdads_sing.jpg",
+			"name": "Where the Crawdads Sing",
+			"category": "Romance",
+			"price": 14.99,
+			"originalPrice": 22.99,
+			"sold": 8,
+			"stock": 89,
+			"rating": 4.4
+		},
+		{
+			"bookId": "bi003",
+			"image": "/images/books/becoming.jpg",
+			"name": "Becoming",
+			"category": "Biographies",
+			"price": 22.99,
+			"originalPrice": 32.99,
+			"sold": 25,
+			"stock": 15,
+			"rating": 4.7
+		},
+		{
+			"bookId": "ed001",
+			"image": "/images/books/educating_rita.jpg",
+			"name": "Educating Rita",
+			"category": "Edu & Reference",
+			"price": 8.99,
+			"originalPrice": 14.99,
+			"sold": 5,
+			"stock": 20,
+			"rating": 4.2
+		},
+		{
+			"bookId": "re002",
+			"image": "/images/books/alchemist.jpg",
+			"name": "The Alchemist",
+			"category": "Religion",
+			"price": 10.99,
+			"originalPrice": 16.99,
+			"sold": 10,
+			"stock": 89,
+			"rating": 4.5
+		},
+		{
+			"bookId": "sf003",
+			"image": "/images/books/hobbit.jpg",
+			"name": "The Hobbit",
+			"category": "Sci-Fi & Fantasy",
+			"price": 9.99,
+			"originalPrice": 14.99,
+			"sold": 15,
+			"stock": 41,
+			"rating": 4.6
+		},
+		{
+			"bookId": "bu002",
+			"image": "/images/books/art_of_war.jpg",
+			"name": "The Art of War",
+			"category": "Business",
+			"price": 7.99,
+			"originalPrice": 12.99,
+			"sold": 20,
+			"stock": 9,
+			"rating": 4.8
+		},
+		{
+			"bookId": "co002",
+			"image": "/images/books/joy_of_cooking.jpg",
+			"name": "The Joy of Cooking",
+			"category": "Cooking",
+			"price": 25.99,
+			"originalPrice": 34.99,
+			"sold": 10,
+			"stock": 3,
+			"rating": 4.5
+		}
+	]
+}

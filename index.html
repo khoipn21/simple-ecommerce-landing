@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <link rel="icon"
+    type="image"
+    href="./images/logo/icon.png">
+  <link href="css/style.css"
+    rel="stylesheet">
+  <!-- font -->
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+  <script type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/1933673737.js"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="overlay"
+    data-overlay></div>
+  <div class="modal"
+    data-modal>
+    <div class="modal-close-overlay"
+      data-modal-overlay></div>
+    <div class="modal-content">
+      <button class="modal-close-btn"
+        data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="/images/newsletter.png"
+          alt="subscribe newsletter"
+          width="400"
+          height="400">
+      </div>
+
+      <div class="newsletter">
+        <form action="#">
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">
+              Subscribe Newsletter
+            </h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Amelia Bookstore</b> to get latest products and discount update.
+            </p>
+
+          </div>
+
+          <input type="email"
+            class="email-field"
+            placeholder="Enter your email"
+            required>
+
+          <button type="submit"
+            class="btn-newsletter">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-main">
+      <div class="container">
+
+        <a href="#"
+          class="header-logo">
+          <img src="/images/logo/logo.svg"
+            alt="Main logo"
+            width="120px"
+            height="40px">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search"
+            name="search"
+            class="search-field"
+            placeholder="Search here...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-action">
+
+
+          <button class="action-btn login-btn">
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <!-- <ion-icon name="log-in-outline"></ion-icon> -->
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <a class="action-btn cart" href="/cart.html">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count count-cart"></span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <nav class="desktop-nav-menu">
+      <div class="container">
+
+        <ul class="desktop-menu-cat-list">
+
+          <li class="menu-category">
+            <a href="#"
+              class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#"
+              class="menu-title">Trending Categories</a>
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Religion</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Agnoticism</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Astrology</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Antheism</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Buddhism</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Christian</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/images/religion-banner.png"
+                      alt="religion banner"
+                      width="250"
+                      height="119">
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Sci-fi</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Action</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Dark Fantasy</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Fantasy</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Horror</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Space</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/images/scifi-banner.png"
+                      alt="scifi banner"
+                      width="250"
+                      height="119">
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Romance</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Anthologies</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Contemporary</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Erotica</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Fantasy</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Gothic</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/images/romance-banner.png"
+                      alt="romance banner"
+                      width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Comics</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Fantasy</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">DC Comics</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Marvel Comics</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Manga</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Comic Strips</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="/images/comic-banner.png"
+                      alt="comics banner"
+                      width="250"
+                      height="119">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu-category">
+            <a href="#product-minimal"
+              class="menu-title">Chart</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#product-main"
+              class="menu-title">New Arrivals</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#blog"
+              class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#product-featured"
+              class="menu-title">Hot Offers</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="banner">
+      <div class="container">
+        <div class="slider-container">
+          <div class="slider-item">
+
+            <img src="/images/banner1.png"
+              alt="banner1"
+              class="banner-img">
+
+            <div class="banner-content">
+              <p class="banner-subtitle">Trending</p>
+              <h2 class="banner-title">My Sweet Orange Tree</h2>
+              <p class="banner-text">starting at &dollar; <b>20</b>.00</p>
+              <a href=""
+                class="banner-btn">Shop Now</a>
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="/images/banner2.png"
+              alt="banner2"
+              class="banner-img">
+
+            <div class="banner-content">
+              <p class="banner-subtitle">Trending</p>
+              <h2 class="banner-title">Farenheit 451</h2>
+              <p class="banner-text">starting at &dollar; <b>15</b>.00</p>
+              <a href=""
+                class="banner-btn">Shop Now</a>
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="/images/banner3.png"
+              alt="banner3"
+              class="banner-img">
+
+            <div class="banner-content">
+              <p class="banner-subtitle">Limited Offer</p>
+              <h2 class="banner-title">The Little Prince</h2>
+              <p class="banner-text">starting at &dollar; <b>29</b>.99</p>
+              <a href=""
+                class="banner-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-container">
+      <div class="container">
+        <div class="sidebar has-scrollbar">
+
+          <div class="sidebar-category">
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+              <button class="sidebar-close-btn"
+                data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+            <ul class="sidebar-menu-category-list"></ul>
+          </div>
+
+        </div>
+
+        <div class="product-box">
+          <div class="product-minimal"
+            id="product-minimal"></div>
+          <div class="product-featured"
+            id="product-featured"></div>
+          <div class="product-main"
+            id="product-main"></div>
+        </div>
+
+
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="reviews-box">
+          <div class="review">
+            <h2 class="title">review</h2>
+            <div class="review-card">
+              <img src="/images/review.png"
+                alt="john doe"
+                class="review-banner"
+                width="80"
+                height="80">
+              <p class="review-name">John Doe</p>
+              <p class="review-title">Artist</p>
+              <div class="quotation">
+                <i class="fa-solid fa-quote-left"></i>
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <p class="review-desc">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                dolor dolor sit amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="promote-container">
+            <img src="/images/promote-banner.png"
+              alt="summer collection"
+              class="promote-banner">
+            <a href="#"
+              class="promote-content">
+              <p class="discount">Up to 25% Discount</p>
+              <h2 class="promote-title">Fantasy Collection</h2>
+              <p class="promote-text">Starting at $7.99</p>
+              <button class="promote-btn">Shop now</button>
+            </a>
+
+          </div>
+
+          <div class="service">
+            <h2 class="title">Our Services</h2>
+            <div class="service-container">
+              <a href="#"
+                class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">Worldwide Delivery</h3>
+                  <p class="service-desc">For Order Over $100</p>
+                </div>
+              </a>
+
+              <a href="#"
+                class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+
+                  <h3 class="service-title">3 Days delivery</h3>
+                  <p class="service-desc">Domestic Orders Only</p>
+
+                </div>
+              </a>
+
+              <a href="#"
+                class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+                  <h3 class="service-title">Best Online Support</h3>
+                  <p class="service-desc">Hours: 8AM - 11PM</p>
+                </div>
+              </a>
+
+              <a href="#"
+                class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Return Policy</h3>
+                  <p class="service-desc">Easy & Free Return</p>
+                </div>
+              </a>
+
+              <a href="#"
+                class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+                  <h3 class="service-title">30% money back</h3>
+                  <p class="service-desc">For Order Over $100</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog"
+      id="blog">
+      <div class="container">
+        <div class="blog-container has-scrollbar">
+          <div class="blog-card">
+            <a
+              href="https://www.theguardian.com/books/article/2024/may/23/jenny-erpenbeck-interview-kairos-international-booker-winner-michael-hoffmann">
+              <img src="/images/blog-1.jpg"
+                alt="Jenny Erpenbeck on her International Booker winner Kairos"
+                width="300"
+                class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#"
+                class="blog-category">
+                Interview
+              </a>
+
+              <a
+                href="https://www.theguardian.com/books/article/2024/may/23/jenny-erpenbeck-interview-kairos-international-booker-winner-michael-hoffmann">
+                <h3 class="blog-title">Jenny Erpenbeck on her International Booker winner Kairos</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>Lisa Allardice</cite> / <time datetime="2024-05-23">May 23, 2024</time>
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-card">
+
+            <a
+              href="https://www.theguardian.com/books/article/2024/may/23/the-road-to-the-country-by-chigozie-obioma-review-a-brutal-journey">
+              <img src="/images/blog-2.jpg"
+                alt="The Road to the Country by Chigozie Obioma review – a brutal journey"
+                class="blog-banner"
+                width="300">
+            </a>
+
+            <div class="blog-content">
+              <a href="https://www.theguardian.com/books/article/2024/may/23/the-road-to-the-country-by-chigozie-obioma-review-a-brutal-journey"
+                class="blog-category">
+                Review
+              </a>
+
+              <h3>
+                <a href="https://www.theguardian.com/books/article/2024/may/23/the-road-to-the-country-by-chigozie-obioma-review-a-brutal-journey"
+                  class="blog-title">The Road to the Country by Chigozie Obioma review – a brutal journey</a>
+              </h3>
+
+              <p class="blog-meta">
+                By <cite>Aminatta Forna</cite> / <time datetime="2024-05-23">May 23, 2024</time>
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <a
+              href="https://www.theguardian.com/books/article/2024/may/23/five-of-the-best-books-about-west-african-cities">
+              <img src="/images/blog-3.jpg"
+                alt="Five of the best books about west African cities"
+                class="blog-banner"
+                width="300">
+            </a>
+
+            <div class="blog-content">
+              <a href="#"
+                class="blog-category">
+                Five of the best
+              </a>
+
+              <h3>
+                <a href="https://www.theguardian.com/books/article/2024/may/23/five-of-the-best-books-about-west-african-cities"
+                  class="blog-title">Five of the best books about west African cities</a>
+              </h3>
+
+              <p class="blog-meta">
+                By <cite>Eromo Egbejule</cite> / <time datetime="2024-05-23">May 23, 2024</time>
+              </p>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <a
+              href="https://www.theguardian.com/books/2024/apr/30/childrens-and-teens-roundup-the-best-new-chapter-books-lauren-child-clarice-bean-smile-elle-mcnicoll-keedie">
+              <img src="/images/blog-4.jpg"
+                alt="Children’s and teens roundup – the best new chapter books"
+                class="blog-banner"
+                width="300">
+            </a>
+
+            <div class="blog-content">
+              <a href="#"
+                class="blog-category">
+                Review
+              </a>
+              <h3>
+                <a href="https://www.theguardian.com/books/2024/apr/30/childrens-and-teens-roundup-the-best-new-chapter-books-lauren-child-clarice-bean-smile-elle-mcnicoll-keedie"
+                  class="blog-title">Children’s and teens roundup – the best new chapter books</a>
+              </h3>
+
+              <p class="blog-meta">
+                By <cite>Kitty Empire</cite> / <time datetime="2024-04-30">April 30, 2024</time>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

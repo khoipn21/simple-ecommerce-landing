@@ -1,0 +1,115 @@
+{
+	"title": "Categories",
+	"categories": [
+		{
+			"name": "Arts & Music",
+			"icon": "./images/icons/arts.svg",
+			"subcategories": [
+				{ "name": "Art History", "stock": 125 },
+				{ "name": "Calligraphy", "stock": 83 },
+				{ "name": "Drawing", "stock": 210 },
+				{ "name": "Fashion", "stock": 57 },
+				{ "name": "Film", "stock": 98 }
+			]
+		},
+		{
+			"name": "Biographies",
+			"icon": "./images/icons/biography.svg",
+			"subcategories": [
+				{ "name": "Ethnic & Cultural", "stock": 150 },
+				{ "name": "Europe", "stock": 72 },
+				{ "name": "Historical", "stock": 254 },
+				{ "name": "Leaders & Notable People", "stock": 112 },
+				{ "name": "Military", "stock": 66 }
+			]
+		},
+		{
+			"name": "Business",
+			"icon": "./images/icons/business.svg",
+			"subcategories": [
+				{ "name": "Careers", "stock": 187 },
+				{ "name": "Economics", "stock": 94 },
+				{ "name": "Finance", "stock": 205 },
+				{ "name": "Industries", "stock": 33 },
+				{ "name": "International", "stock": 88 }
+			]
+		},
+		{
+			"name": "Comics",
+			"icon": "./images/icons/comics.svg",
+			"subcategories": [
+				{ "name": "Comic Books", "stock": 325 },
+				{ "name": "Comic Strips", "stock": 48 },
+				{ "name": "Dark Horse", "stock": 191 },
+				{ "name": "DC Comics", "stock": 237 },
+				{ "name": "Fantasy", "stock": 62 }
+			]
+		},
+		{
+			"name": "Computers & Tech",
+			"icon": "./images/icons/computers.svg",
+			"subcategories": [
+				{ "name": "Apple", "stock": 143 },
+				{ "name": "CAD", "stock": 79 },
+				{ "name": "Certification", "stock": 265 },
+				{ "name": "Computer Science", "stock": 108 },
+				{ "name": "Databases", "stock": 51 }
+			]
+		},
+		{
+			"name": "Cooking",
+			"icon": "./images/icons/cooking.svg",
+			"subcategories": [
+				{ "name": "Asian", "stock": 212 },
+				{ "name": "Baking", "stock": 85 },
+				{ "name": "BBQ", "stock": 167 },
+				{ "name": "Culinary Arts", "stock": 44 },
+				{ "name": "Desserts", "stock": 132 }
+			]
+		},
+		{
+			"name": "Edu & Reference",
+			"icon": "./images/icons/education.svg",
+			"subcategories": [
+				{ "name": "Almanacs & Yearbooks", "stock": 99 },
+				{ "name": "Atlases & Maps", "stock": 180 },
+				{ "name": "Catalogs", "stock": 37 },
+				{ "name": "Colleges", "stock": 228 },
+				{ "name": "Continuing Education", "stock": 156 }
+			]
+		},
+		{
+			"name": "Romance",
+			"icon": "./images/icons/romance.svg",
+			"subcategories": [
+				{ "name": "Anthologies", "stock": 175 },
+				{ "name": "Contemporary", "stock": 69 },
+				{ "name": "Erotica", "stock": 241 },
+				{ "name": "Fantasy", "stock": 96 },
+				{ "name": "Gothic", "stock": 40 }
+			]
+		},
+		{
+			"name": "Sci-Fi & Fantasy",
+			"icon": "./images/icons/scifi.svg",
+			"subcategories": [
+				{ "name": "Action", "stock": 118 },
+				{ "name": "Anthologies", "stock": 193 },
+				{ "name": "Coming of Age", "stock": 29 },
+				{ "name": "Dark Fantasy", "stock": 284 },
+				{ "name": "Fantasy", "stock": 139 }
+			]
+		},
+		{
+			"name": "Religion",
+			"icon": "./images/icons/religion.svg",
+			"subcategories": [
+				{ "name": "Agnosticism", "stock": 162 },
+				{ "name": "Astrology", "stock": 82 },
+				{ "name": "Atheism", "stock": 270 },
+				{ "name": "Buddhism", "stock": 124 },
+				{ "name": "Christian", "stock": 55 }
+			]
+		}
+	]
+}

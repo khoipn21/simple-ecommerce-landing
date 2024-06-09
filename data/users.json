@@ -1,0 +1,17 @@
+{
+	"title": "user data",
+	"users": [
+		{
+			"email": "khoi2112@gmail.com",
+			"password": "Khoi2112"
+		},
+		{
+			"email": "admin@admin.com",
+			"password": "Admin1"
+		},
+		{
+			"email": "user@admin.com",
+			"password": "User1"
+		}
+	]
+}
